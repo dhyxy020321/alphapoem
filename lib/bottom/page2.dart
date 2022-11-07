@@ -5,8 +5,6 @@ import 'package:flutter_common_templates/bottom/widget/my_text.dart';
 
 //import 'package:image_picker/image_picker.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:image_cropper/image_cropper.dart';
 
 import 'lib02/pickers.dart';
 import 'lib02/style/picker_style.dart';

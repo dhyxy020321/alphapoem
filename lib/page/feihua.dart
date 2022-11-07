@@ -311,9 +311,10 @@ class _ChatPageState extends State<ChatPage> {
   getHistoryMessages() async {
     setState(() {
       _messageList = [
-        {"messageDirection": 2, "content": "最近还好吗？"},
-        {"messageDirection": 2, "content": "最近还好吗？"},
-        {"messageDirection": 2, "content": "是啊"},
+        {"messageDirection": 2, "content": "请先选择一个字作为飞花"},
+        {"messageDirection": 2, "content": "之后请语音输入与飞花相关诗句"},
+        {"messageDirection": 2, "content": "app也会返回一句进行对抗"},
+        {"messageDirection": 2, "content": "请加油对出更多的诗句"},
       ];
       sounds=[
         'assets/sounds/hai.mp3',
@@ -477,11 +478,11 @@ class _ChatPageState extends State<ChatPage> {
         _messageRealList[index]['messageDirection'] == 1 ? const Expanded(child: Text("")) : userAvatar("assets/chat/touxiang.jpg", 58.0),
         GestureDetector(
           onTap: () async{
-                  if(audioPlayer!=null){
-                      audioPlayer!.stop();
-                      }
-               audioPlayer=await player!.play(sounds[index]);
-                  print('播放成功');
+               //    if(audioPlayer!=null){
+               //        audioPlayer!.stop();
+               //        }
+               // audioPlayer=await player!.play(sounds[index]);
+               //    print('播放成功');
           },
           child: Container(
             constraints: BoxConstraints(
