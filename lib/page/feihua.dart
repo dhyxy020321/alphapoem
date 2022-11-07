@@ -311,10 +311,10 @@ class _ChatPageState extends State<ChatPage> {
   getHistoryMessages() async {
     setState(() {
       _messageList = [
-        {"messageDirection": 2, "content": "请先选择一个字作为飞花"},
-        {"messageDirection": 2, "content": "之后请语音输入与飞花相关诗句"},
-        {"messageDirection": 2, "content": "app也会返回一句进行对抗"},
         {"messageDirection": 2, "content": "请加油对出更多的诗句"},
+        {"messageDirection": 2, "content": "app也会返回一句进行对抗"},
+        {"messageDirection": 2, "content": "之后请语音输入与飞花相关诗句"},
+        {"messageDirection": 2, "content": "请先选择一个字作为飞花"},
       ];
       sounds=[
         'assets/sounds/hai.mp3',
