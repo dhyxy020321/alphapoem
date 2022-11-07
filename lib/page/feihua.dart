@@ -315,6 +315,7 @@ class _ChatPageState extends State<ChatPage> {
         {"messageDirection": 2, "content": "app也会返回一句进行对抗"},
         {"messageDirection": 2, "content": "之后请语音输入与飞花相关诗句"},
         {"messageDirection": 2, "content": "请先选择一个字作为飞花"},
+
       ];
       sounds=[
         'assets/sounds/hai.mp3',
@@ -360,7 +361,7 @@ class _ChatPageState extends State<ChatPage> {
   }*/
   void _onClickItem(pickerStyle) {
     Pickers.showSinglePicker(context,
-        data: ['花','月','风','雨'],
+        data: ['花','月','风','雨','云','鸟','日','水','叶','山'],
         pickerStyle: pickerStyle=customizeStyle(),
         onConfirm: (p, __) =>setState(() {
           feihua = p;
