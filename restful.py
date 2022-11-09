@@ -10,12 +10,12 @@ from gettoken import gettoken
 
 
 def process(audioFile) :
-    appKey = "TJxDZ83lrlksoIxv"
+    appKey = ""
 
     token = gettoken()
 
     # 服务请求地址
-    url = 'https://nls-gateway-cn-shanghai.aliyuncs.com/stream/v1/asr'
+    url = ''
 
     # 音频文件
 

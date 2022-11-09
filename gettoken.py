@@ -9,9 +9,9 @@ from aliyunsdkcore.request import CommonRequest
 def gettoken():
    # 创建AcsClient实例
    client = AcsClient(
-      "LTAI5tNmE2TBqUqzkH9T3L1K",
-      "LGIO0cv2SVUWJPrluIw0VkwKyRqz2b",
-      "cn-shanghai"
+      "",
+      "",
+      ""
    )
 
    # 创建request，并设置参数。

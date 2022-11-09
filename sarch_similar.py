@@ -7,7 +7,7 @@ from pymongo import MongoClient
 
 class similar_sarch:
     # 连接数据库
-    client = MongoClient('101.43.253.189', 27017, username='admin', password='1833815177')
+    client = MongoClient('', , username='', password='')
     # 连接到数据库集合
     db = client['poem']['alphapoems']
 

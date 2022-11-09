@@ -5,7 +5,7 @@ class search:
     word = ""
     result_poem = []
     # 连接数据库
-    db = MongoClient('101.43.253.189', 27017, username='admin', password='1833815177')['poem']['alphapoems']
+    db = MongoClient(,, username='', password='')['poem']['alphapoems']
 
     # db = MongoClient('localhost', 27017)['Test']['poetry']
 
