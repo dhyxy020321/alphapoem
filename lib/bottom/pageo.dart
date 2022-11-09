@@ -78,7 +78,7 @@ class _page0State extends State<page0> {
                   }),
                   decoration: ShapeDecoration(
                       image: const DecorationImage(
-                          image: AssetImage('images/lianglogo.png'),
+                          image: AssetImage('assets/bodyc/jiugongge.jpg'),
                           fit: BoxFit.fitWidth),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadiusDirectional.circular(15))),
@@ -99,7 +99,7 @@ class _page0State extends State<page0> {
                   ),
                   decoration: ShapeDecoration(
                       image: const DecorationImage(
-                          image: AssetImage('images/feilogo.png'),
+                          image: AssetImage('assets/bodyc/feihualing.jpg'),
                           fit: BoxFit.fitWidth),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadiusDirectional.circular(15))),
@@ -118,17 +118,17 @@ class _page0State extends State<page0> {
                   height: 80.0,
                   width: 80.0,
                   decoration: ShapeDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('images/lianglogo.png'),
+                      image:const  DecorationImage(
+                          image: AssetImage('assets/bodyc/duiduipeng.jpg'),
                           fit: BoxFit.fitWidth),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadiusDirectional.circular(15))),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 5,
                 ),
                 Container(
-                  child: new GestureDetector(
+                  child:GestureDetector(
                     onTap: () {
                        Navigator.of(context).push(
                           MaterialPageRoute(builder: (context) => langtao()));
@@ -139,8 +139,8 @@ class _page0State extends State<page0> {
                   height: 80.0,
                   width: 80.0,
                   decoration: ShapeDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('images/feilogo.png'),
+                      image: const DecorationImage(
+                          image: AssetImage('assets/bodyc/dalangtaoshao.jpg'),
                           fit: BoxFit.fitWidth),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadiusDirectional.circular(15))),

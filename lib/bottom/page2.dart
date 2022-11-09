@@ -178,9 +178,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   decoration: BoxDecoration(
                     color: Colors.yellow,
                     borderRadius: BorderRadius.circular(40),
-                    image: DecorationImage(
+                    image:const DecorationImage(
                         image:
-                            new AssetImage('lib/assets/login/backgeound.jpg'),
+                          AssetImage('lib/assets/login/backgeound.jpg'),
                         fit: BoxFit.cover),
                   ),
                 ),
